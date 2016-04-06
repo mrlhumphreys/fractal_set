@@ -108,7 +108,7 @@ OptionParser.new do |opts|
   opts.on("-mMIN", "--min=MIN", "Minimum frame") { |o| options[:min] = o.to_f }
   opts.on("-MMAX", "--max=MAX", "Maximum frame") { |o| options[:max] = o.to_f }
   opts.on("-wWIDTH", "--width=WIDTH", "Image width") { |o| options[:width] = o.to_i }
-  opts.on("-hHEIGHT", "--height=HEIGHT", "Image height") { |o| options[:height] = o.to_i }
+  opts.on("-HHEIGHT", "--height=HEIGHT", "Image height") { |o| options[:height] = o.to_i }
 
 end.parse!
 
